@@ -20,7 +20,8 @@
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $msg = $_POST['msg'];
-    $url = $_POST['url'];
+    $url = trim($_POST['url']);
+    // echo $url;
 
     $email_message = "Details:\n\n";
     $email_message .= "Name: " . $name . "\n";
@@ -29,7 +30,7 @@
     $email_message .= "Phone: " . $phone . "\n";
     $email_message .= "Message: " . $msg . "\n\n";
 
-    $email_to = "contact";
+    $email_to = "contact@recyclingdrums.com";
     $email_subject = "Email de Contacto desde Recyclingdums.com";
 
     $headers =  'From: recyclingdrums@recyclingdrums.com'."\r\n".
@@ -41,7 +42,7 @@
     header('Location: '.$url.'?ok='.$user);
     // echo"$email_to, $email_subject, $email_message, $headers";
   } else {
-  echo "Algo Salio mal";
+  echo "Error";
   }}
 
 ?>
