@@ -1,26 +1,26 @@
     <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6">
                     <div class="ftco-footer-widget mb-5">
                         <h2 class="ftco-heading-2">Have a Questions?</h2>
                         <div class="block-23 mb-3">
                             <ul>
                                 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@recyclingdrums.com</span></a></li>
+                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">contact@recyclingdrums.com</span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="ftco-footer-widget mb-5 ml-md-4">
+                <div class="col-md-6">
+                    <div class="ftco-footer-widget ml-md-4">
                         <h2 class="ftco-heading-2">Links</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                            <li class="nav-item"><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                            <li class="nav-item"><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                            <li class="nav-item"><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
+                            <li class="nav-item"><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
                         </ul>
                     </div>
                 </div>

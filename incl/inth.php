@@ -1,3 +1,16 @@
+<?php
+    // Motrar todos los errores de PHP
+// error_reporting(-1);
+
+// No mostrar los errores de PHP
+// error_reporting(0);
+
+// Motrar todos los errores de PHP
+// error_reporting(E_ALL);
+
+// Motrar todos los errores de PHP
+// ini_set('error_reporting', E_ALL);
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +30,12 @@
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link type=”image/x-icon” href=”/favicon.ico” rel=”icon” /> -->
+    <!-- <link href=”/favicon.ico” rel=”shortcut icon” /> -->
+    <link rel="shortcut icon" type="image/png" href="./images/rcd.png" />
+
 </head>
 <body>
     <div class="py-2 bg-primary">
@@ -46,9 +64,9 @@
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.php" class="nav-link pl-0">Home</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link pl-0">Home</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
+                    <!-- <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li> -->
                     <li class="nav-item"><a href="products.php" class="nav-link">Products</a></li>
                     <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                 </ul>
