@@ -192,8 +192,8 @@
     </section> -->
 
 
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/counter1.jpg);" data-stellar-background-ratio="0.5">
-       <div class="container">
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/counter2.jpg);" data-stellar-background-ratio="0.5">
+       <div class="container counter-opacity">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
                     <h2 class="mb-4"><span>20 Years of</span> Experience</h2>

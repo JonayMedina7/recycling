@@ -9817,3 +9817,6 @@ div.card {
 .ui-toolkit * {
     margin: 0;
 }
+.counter-opacity {
+  background-color: #f0f8ffa1;
+}
